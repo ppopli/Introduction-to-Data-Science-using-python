@@ -9,10 +9,10 @@ Convert `Energy Supply` to gigajoules (there are 1,000,000 gigajoules in a petaj
 
 Rename the following list of countries (for use in later questions):
 
-```"Republic of Korea": "South Korea",
+`"Republic of Korea": "South Korea",
 "United States of America": "United States",
 "United Kingdom of Great Britain and Northern Ireland": "United Kingdom",
-"China, Hong Kong Special Administrative Region": "Hong Kong"```
+"China, Hong Kong Special Administrative Region": "Hong Kong"`
 
 There are also several countries with numbers and/or parenthesis in their name. Be sure to remove these, 
 
@@ -22,7 +22,6 @@ e.g.
 
 `'Switzerland17'` should be `'Switzerland'`.
 
-<br>
 
 Next, load the GDP data from the file `world_bank.csv`, which is a csv containing countries' GDP from 1960 to 2015 from [World Bank](http://data.worldbank.org/indicator/NY.GDP.MKTP.CD). Call this DataFrame **GDP**. 
 
