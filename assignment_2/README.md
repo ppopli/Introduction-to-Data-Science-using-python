@@ -113,7 +113,7 @@ Create a new column with a 1 if the country's % Renewable value is at or above t
 
 
 
-### Question 11 (6.6%)
+### Question 11 
 Use the following dictionary to group the Countries by Continent, then create a dateframe that displays the sample size (the number of countries in each continent bin), and the sum, mean, and std deviation for the estimated population of each country.
 
 ```python
@@ -138,14 +138,14 @@ ContinentDict  = {'China':'Asia',
 
 
 
-### Question 12 (6.6%)
+### Question 12 
 Cut % Renewable into 5 bins. Group Top15 by the Continent, as well as these new % Renewable bins. How many countries are in each of these groups?
 
 *This function should return a __Series__ with a MultiIndex of `Continent`, then the bins for `% Renewable`. Do not include groups with no countries.*
 
 
 
-### Question 13 (6.6%)
+### Question 13 
 Convert the Population Estimate series to a string with thousands separator (using commas). Do not round the results.
 
 e.g. 317615384.61538464 -> 317,615,384.61538464
