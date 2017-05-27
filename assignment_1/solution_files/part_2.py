@@ -14,7 +14,7 @@ future questions too...)'''
 def answer_five():
     y = list()
     
-    #extracting rows where 'SUMLEV' = 50 (i.e states)
+    #extracting rows where 'SUMLEV' = 50 (i.e counties)
     census_df_temp = census_df[census_df['SUMLEV'] == 50] 
     
     unique_states = census_df_temp['STNAME'].unique()
@@ -37,7 +37,7 @@ population)? Use CENSUS2010POP.'''
 def answer_six():
     
     census_cp = census_df.copy()
-    census_cp = census_cp[census_cp['SUMLEV']==50] # extracting states.
+    census_cp = census_cp[census_cp['SUMLEV']==50] # extracting counties.
     census_cp = census_cp[['STNAME','CTYNAME','CENSUS2010POP']] #Keeping Columns STNAME, CTYNAME, CENSUS2010POP only
     unique_states = census_cp['STNAME'].unique()
     states_top3_cty_pop = list()
