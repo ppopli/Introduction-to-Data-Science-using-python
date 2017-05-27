@@ -27,11 +27,10 @@ Next, load the GDP data from the file `world_bank.csv`, which is a csv containin
 
 Make sure to skip the header, and rename the following list of countries:
 
-```"Korea, Rep.": "South Korea", 
+`"Korea, Rep.": "South Korea", 
 "Iran, Islamic Rep.": "Iran",
-"Hong Kong SAR, China": "Hong Kong"```
+"Hong Kong SAR, China": "Hong Kong"`
 
-<br>
 
 Finally, load the [Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology](http://www.scimagojr.com/countryrank.php?category=2102) from the file `scimagojr-3.xlsx`, which ranks countries based on their journal contributions in the aforementioned area. Call this DataFrame **ScimEn**.
 
